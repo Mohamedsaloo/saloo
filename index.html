@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="hi im saloo">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="alternate" href="./xml/rss.xml" type="application/rss+xml" title="RSS">
+    <link rel="apple-touch-icon" href="./img/">
+    <link rel="shortcut icon" href="./img/" type="image/x-icon">
+    <link rel="manifest" href="./Json/manifest.json">
+    <link rel="stylesheet" href="./styles/print.css" media="print">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://kit.fontawesome.com/86a33ae1aa.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./Script/script.js"></script>
+    <title>Saloo</title>
+</head>
+<body>
+
+<header>
+    <a href="#" class="logo" style="font-family: 'poppins', sans-serif;">Sa<span style="font-family: 'poppins', sans-serif;" class="logo-color">loo</span></a>
+   
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="https://discord.gg/dtwDsSEbXX">Discord</a>
+            </li>
+            <li>
+                <a href="#developer">Developer</a>
+            </li>
+            <li>
+                <a href="#contact_us">Contact Us</a>
+            </li>
+
+        </ul>
+    </nav>
+    
+</header>
+
+<script src="./Script/nav-bar.js">
+</script>
+
+
+<section class="main">
+    <div>
+        <h2>Hello, I'm <i class="fa-solid fa-hand-wave"></i> <br style="font-family: 'poppins', sans-serif;"><span  style="font-family: 'poppins', sans-serif;">Mohamed Saloo</span></h2>
+        <a href="#services" class="main-btn"  style="font-family: 'poppins', sans-serif;">View</a>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/mohamed.saloo/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/MohamedSaloo.WT"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </div>
+</section>
+
+<section class="cards" id="services">
+    <h2 class="title">Services</h2>
+    <div class="content">
+        <div class="card">
+            <div class="icon">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="info">
+                <h3>Website</h3>
+                <p>A personal web site that contains personal information such as photos, personal numbers, and other information (My demo website)</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="info">
+                <h3 style="font-family: 'poppins', sans-serif;">Source website</h3>
+                <p style="font-family: 'poppins', sans-serif;">The site was built on basics such as the html language as a basic language and for appearance I used the css language, in addition to the important language js and as a basic work in building this site</p>
+            </div>
+        </div>
+    </div>
+    
+
+</section>
+
+<section id="developer" class="Developer">
+    <h2 class="title">Developer</h2>
+    <!--Class this display flx -->
+
+    <div class="content">
+        <!--Card Profile-->
+        <div class="card-profile">
+
+            <div class="cover-img">
+                <img src="./img/cover-img.jpg" alt="cover">
+            </div>
+
+            <div class="profile-img" id="profile-img">
+                <img src="./img/img-profile.jpg" alt="MohamedSaloo">
+            </div>
+
+            <div class="content-profile">
+                <h3>MohamedSaloo</h3>
+
+                <p>Hello my friend, I am the one who created this website to relieve boredom. If you want to update me, these are his communication sites</p>
+            </div>
+            <div class="card-icons-social">
+                <a href="https://github.com/Mohamedsaloo"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/mohamed.saloo/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/MohamedSaloo.WT"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.twitch.tv/mohamedsaloo"><i class="fa-brands fa-twitch"></i></a>
+                <!--icon social media-->
+            </div>
+
+        </div>
+
+        <!--Card Profile the end-->
+   </div>
+</section>
+
+
+
+</section>
+
+<section id="contact_us" class="divhero">
+    <h2 class="title">Contact Us</h2>
+
+    <div class="divflx">
+         <form action="" method="post">
+
+            <div class="div-row">
+
+                <div class="input-group">
+                    <input type="text" name="name" id="name" required>
+                    <label for="name"> <i class="fas fa-user"></i> Your name.</label>
+                </div>
+    
+                  <div class="input-group">
+                    <input type="number" name="phone" id="phone" required>
+                    <label for="phone"> <i class="fas fa-phone-square-alt"></i> Phone on.</label>
+                  </div>
+         </div>
+         
+              <div class="input-group">
+                <input type="email" name="email" id="email" required>
+                <label for="email"> <i class="fas fa-envelope"></i> Your Email</label>
+              </div>
+
+              <div class="input-group">
+                <textarea name="message" id="message" rows="8" required></textarea>
+                <label for="message"> <i class="fas fa-comments"></i> Message</label>
+              </div>
+
+              <button type="submit" class="submit" onclick="Send()"> <i class="fas fa-paper-plane"></i> Submit</button>
+
+         </form>
+    </div>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+
+    function Send(){
+    var name = document.getElementById('name').value;
+    var phone = document.getElementById('phone').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+
+    var body =  "Name :" + name + "<br/> Phone : " + phone + "<br/> Email : " + email +"<br/>  Message : " + message ;
+    
+    console.log(body);
+
+    Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "salooman28@gmail.com",
+    Password : "28BE8569692F3946E76221281BDA18B489C2",
+    To : 'salooman28@gmail.com',
+    From : "salooman28@gmail.com",
+    Subject : "New message from contact 🆕 🌟",
+    Body : body
+    }).then(
+    message => {
+        
+        if(message =='OK'){
+        swal({
+        title: "Contact Us",
+        text: "Your message has been sent successfully ",
+        icon: "success",
+        button: "Done",
+});
+}
+}
+);
+}
+    </script>
+
+
+    <div class="p-email-err">
+        <li>
+            <p>Hello it will direct you wrongly and I am the one who added it to people who add fake mail you have to add this sign and you know this <span>@</span> in the box <a href="#email">email</a> thx my friend</p>
+        </li>
+    </div>
+
+    
+</section>
+
+<div class="up">
+    <a href="javascript:MoveTop()" onclick="scrollToTop()"><i class="fa-solid fa-chevron-up"></i></a>
+  </div>
+
+
+  <footer class="footer">
+   
+    <p>Copyright © all rights reserved @<span>MohamedSaloo</span></p>
+   
+    <div class="diviconsfooter">
+   
+        <a href="https://github.com/Mohamedsaloo"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/mohamed.saloo/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/MohamedSaloo.WT"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.twitch.tv/mohamedsaloo"><i class="fa-brands fa-twitch"></i></a>
+    </div>
+   
+   </footer>
+</body>
+</html>
